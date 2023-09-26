@@ -1,0 +1,369 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="LogoUKDC-Besar.png">
+        <title>Rekomendasi Unit Kegiatan Mahasiswa (UKM) - UKDC</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f0f0f0;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            header {
+                background-color: #173188;
+                color: white;
+                text-align: center;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 30px;
+                margin: 0;
+            }
+            h2 {
+                margin-right: 5rem;
+                margin-left: 5rem;
+            }
+            h4 {
+                font-weight: normal;
+                margin: 0;
+            }
+            h3 {
+                margin: 0;
+            }
+            h5 {
+                margin: 0;
+            }
+
+            #profile-picture {
+                width: 110px;
+                height: 110px;
+                border-radius: 50%;
+                border: 5px solid white;
+                margin: 20px auto;
+                display: block;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            #profile-picture:hover {
+                transform: rotate(360deg);
+            }
+
+            .profile-info {
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            footer {
+                background-color: #FFA709;
+                color: black;
+                text-align: center;
+                padding: 10px;
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+            }
+
+            input[type="text"] {
+                padding: 5px;
+                border: 2px solid #173188;
+                border-radius: 3px;
+                font-size: 16px;
+                color: #173188;
+                background-color: #FFFFFF;
+                transition: border-color 0.3s;
+                margin-left: 3px;
+            }
+            input[type="text"]:hover {
+                border-color: #173188;
+            }
+            input[type="text"]:focus {
+                outline: none;
+                border-color: #173188;
+                box-shadow: 0 0 5px #FFA709;
+            }
+
+            button{
+                background-color: #173188;
+                color: white;
+                padding: 8 11px;
+                border-radius: 3px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                font-size: 14px;
+                border: none;
+            }
+            button:hover{
+                transition: .8s;
+                background-color: #FFA709;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Rekomendasi Unit Kegiatan Mahasiswa (UKM)</h1>
+        </header>
+
+        <img id="profile-picture" src="LogoUKDC-Kecil.png" alt="Profil Saya">
+        <h3>Rekomendasi Jenis UKM pada Universitas Katolik Darma Cendika di Surabaya</h3>
+        <br>
+
+        <div class="profile-info">
+            
+            <label for="minatInput">Pilih Kategori :</label>
+            <input type="text" list="minatList" id="minatInput">
+            <datalist id="minatList">
+                <option value="Akapela">
+                    <option value="Akustik">
+                    <option value="Alkitab">
+                    <option value="Alley-Oop">
+                    <option value="Animasi">
+                    <option value="Artikel">
+                    <option value="Audio">
+                    <option value="Backcourt">
+                    <option value="Band">
+                    <option value="Beladiri">
+                    <option value="Berbahasa">
+                    <option value="Bergaya">
+                    <option value="Berita">
+                    <option value="Blocking">
+                    <option value="Bola">
+                    <option value="Breakdance">
+                    <option value="Budaya">
+                    <option value="Cager">
+                    <option value="Crossover">
+                    <option value="Desain">
+                    <option value="Digital">
+                    <option value="Doa">
+                    <option value="Dojang">
+                    <option value="Dribel">
+                    <option value="Dropshot">
+                    <option value="Dukungan">
+                    <option value="Dunk">
+                    <option value="Editing">
+                    <option value="Editorial">
+                    <option value="Ekspresi">
+                    <option value="Etnik">
+                    <option value="Fastbreak">
+                    <option value="Festival">
+                    <option value="Fotografi">
+                    <option value="Full-Court">
+                    <option value="Futsalindo">
+                    <option value="Futsalista">
+                    <option value="Futsalization">
+                    <option value="Ganda">
+                    <option value="Gandingan">
+                    <option value="Gawang">
+                    <option value="Gerakan">
+                    <option value="Gol">
+                    <option value="Goleador">
+                    <option value="Grafis">
+                    <option value="Half-Court">
+                    <option value="Harmoni">
+                    <option value="Hip-Hop">
+                    <option value="Hoop">
+                    <option value="Ibadah">
+                    <option value="Ilustrasi">
+                    <option value="Iman">
+                    <option value="Improvisasi">
+                    <option value="Inggris">
+                    <option value="Instrumen">
+                    <option value="Instrumental">
+                    <option value="Interpretasi">
+                    <option value="Jazz">
+                    <option value="Jemaat">
+                    <option value="Jumper">
+                    <option value="Jurnalisme">
+                    <option value="Jurus">
+                    <option value="Kamera">
+                    <option value="Katedral">
+                    <option value="Katekese">
+                    <option value="Katekismus">
+                    <option value="Katolik">
+                    <option value="Kebaktian">
+                    <option value="Kebenaran">
+                    <option value="Kebugaran">
+                    <option value="Kejuaraan">
+                    <option value="Keluarga">
+                    <option value="Kemanusiaan">
+                    <option value="Kepemimpinan">
+                    <option value="Kerohanian">
+                    <option value="Kesaksian">
+                    <option value="Khotbah">
+                    <option value="Kinerja">
+                    <option value="Kiper">
+                    <option value="Klasik">
+                    <option value="Kok">
+                    <option value="Kolaborasi">
+                    <option value="Kompetisi">
+                    <option value="Komposisi">
+                    <option value="Komunitas">
+                    <option value="Konser">
+                    <option value="Kontemporer">
+                    <option value="Koreografi">
+                    <option value="Kreativitas">
+                    <option value="Kudus">
+                    <option value="Kulintang">
+                    <option value="Kumdo">
+                    <option value="Kumite">
+                    <option value="Lapangan">
+                    <option value="Lapangan">
+                    <option value="Layanan">
+                    <option value="Layup">
+                    <option value="Liga">
+                    <option value="Linjur">
+                    <option value="Liputan">
+                    <option value="Liturgi">
+                    <option value="Medali">
+                    <option value="Media">
+                    <option value="Melodi">
+                    <option value="Misa">
+                    <option value="Modern">
+                    <option value="Multimedia">
+                    <option value="Musik">
+                    <option value="Naskah">
+                    <option value="Net">
+                    <option value="Notasi">
+                    <option value="Olahraga">
+                    <option value="Olimpiade">
+                    <option value="Orkestra">
+                    <option value="Paduan">
+                    <option value="Paskah">
+                    <option value="Passing">
+                    <option value="Pelatihan">
+                    <option value="Pelayanan">
+                    <option value="Peliputan">
+                    <option value="Pemain">
+                    <option value="Pemuda">
+                    <option value="Pemusik">
+                    <option value="Pendidikan">
+                    <option value="Penginjilan">
+                    <option value="Pengiring">
+                    <option value="Penilaian">
+                    <option value="Penyanyi">
+                    <option value="Penyiar">
+                    <option value="Penyuntingan">
+                    <option value="Perform">
+                    <option value="Peringkat">
+                    <option value="Perlindungan">
+                    <option value="Pertunjukan">
+                    <option value="Pewartaan">
+                    <option value="Pianis">
+                    <option value="Pivot">
+                    <option value="Poomsae">
+                    <option value="Pop">
+                    <option value="Protestan">
+                    <option value="Puasa">
+                    <option value="Pujian">
+                    <option value="Pukulan">
+                    <option value="Raket">
+                    <option value="Rebound">
+                    <option value="Redaksi">
+                    <option value="Repertoar">
+                    <option value="Retret">
+                    <option value="Ritme">
+                    <option value="Rivalitas">
+                    <option value="Rock">
+                    <option value="Rotary">
+                    <option value="Sabuk">
+                    <option value="Sakramen">
+                    <option value="Santo">
+                    <option value="Seni">
+                    <option value="Servis">
+                    <option value="Shootout">
+                    <option value="Skill">
+                    <option value="Slam">
+                    <option value="Smash">
+                    <option value="Sparing">
+                    <option value="Sparring">
+                    <option value="Steal">
+                    <option value="Suara">
+                    <option value="Taegeuk">
+                    <option value="Taekwondoin">
+                    <option value="Tangkisan">
+                    <option value="Tari">
+                    <option value="Teknik">
+                    <option value="Teknologi">
+                    <option value="Tendangan">
+                    <option value="Tradional">
+                    <option value="Triple-Double">
+                    <option value="Tulisan">
+                    <option value="Turnamen">
+                    <option value="Video">
+                    <option value="Visual">
+                    <option value="Vokal">
+                    <option value="Wartawan">
+                    <option value="Web">                
+            </datalist>
+            
+            <br><br><button onclick="getRecommendations()">Rekomendasi</button>
+            
+            <br><br>
+            <h4>Rekomendasi UKM:</h4>
+            <p id="rekomendasi">
+                <!-- Hasil Rekomendasi -->
+            </p>
+
+        </div>
+
+        <footer>
+            &copy; Rekomendasi UKM UKDC - 2023
+        </footer>
+
+        <script>
+            // Data UKM
+            const ukmData = [
+                { nama: "UKM Basket", minat: ["Olahraga", "Bola", "Dribel", "Slam", "Rebound", "Crossover", "Layup", "Dunk", "Pivot", "Jumper", "Fastbreak", "Blocking", "Steal", "Alley-Oop", "Triple-Double", "Cager", "Shootout", "Full-Court", "Backcourt", "Half-Court", "Hoop", "Pelatihan", "Lapangan"] },
+                { nama: "UKM Futsal", minat: ["Olahraga", "Bola", "Gol", "Teknik", "Dribel", "Gawang", "Passing", "Kiper", "Tendangan", "Lapangan", "Futsalista", "Sparing", "Skill", "Pelatihan", "Turnamen", "Liga", "Pemain", "Futsalindo", "Goleador", "Futsalization"] },
+                { nama: "UKM Taekwondo", minat: ["Olahraga", "Poomsae", "Sparring", "Sabuk", "Teknik", "Beladiri", "Pelatihan", "Tendangan", "Kumite", "Dojang", "Taekwondoin", "Kebugaran", "Turnamen", "Medali", "Taegeuk", "Jurus", "Olimpiade", "Peringkat", "Perlindungan", "Kumdo", "Penilaian"] },
+                { nama: "UKM Badminton", minat: ["Olahraga", "Tangkisan", "Raket", "Kok", "Net", "Pukulan", "Linjur", "Servis", "Lapangan", "Ganda", "Tunggal", "Smash", "Dropshot", "Kejuaraan", "Turnamen", "Teknik", "Rivalitas", "Pelatihan"] },
+                { nama: "UKM Kerohanian Katolik", minat: ["Kerohanian", "Katolik", "Iman", "Doa", "Katedral", "Liturgi", "Ibadah", "Kebaktian", "Komunitas", "Katekese", "Santo", "Misa", "Katekismus", "Kudus", "Puasa", "Sakramen", "Paskah", "Kesaksian", "Khotbah", "Alkitab"] },
+                { nama: "UKM Kerohanian Protestan", minat: ["Kerohanian", "Protestan", "Iman", "Doa", "Ibadah", "Kebaktian", "Komunitas", "Pelayanan", "Kesaksian", "Pujian", "Khotbah", "Kudus", "Kebenaran", "Penginjilan", "Jemaat", "Keluarga", "Retret", "Alkitab"] },
+                { nama: "UKM Multimedia", minat: ["Media", "Desain", "Grafis", "Animasi", "Video", "Audio", "Web", "Editing", "Kreativitas", "Produksi", "Multimedia", "Ilustrasi", "Teknologi", "Digital", "Visual", "Fotografi"] },
+                { nama: "UKM Jurnalistik", minat: ["Artikel", "Berita", "Wartawan", "Liputan", "Tulisan", "Reporter", "Editorial", "Jurnalisme", "Media", "Kamera", "Peliputan", "Redaksi", "Naskah", "Pewartaan", "Penyuntingan", "Penyiar"] },
+                { nama: "UKM Musik", minat: ["Musik", "Seni", "Pemusik", "Konser", "Komposisi", "Penyanyi", "Instrumental", "Band", "Kreativitas", "Pelatihan", "Harmoni", "Akustik", "Jazz", "Klasik", "Rock", "Pop", "Orkestra", "Pianis", "Vokal", "Festival"] },
+                { nama: "UKM Paduan Suara", minat: ["Musik", "Paduan", "Suara", "Koreografi", "Harmoni", "Vokal", "Penyanyi", "Akapela", "Repertoar", "Pelatihan", "Konser", "Kompetisi", "Notasi", "Pertunjukan", "Interpretasi", "Melodi"] },
+                { nama: "UKM Kulintang", minat: ["Musik", "Tradional", "Kulintang", "Gandingan", "Gendang", "Melodi", "Komposisi", "Pengiring", "Konser", "Budaya", "Harmoni", "Seni", "Etnik", "Klasik", "Instrumen", "Pertunjukan", "Improvisasi", "Pelatihan"] },
+                { nama: "UKM Dance", minat: ["Tari", "Modern", "Koreografi", "Gerakan", "Ritme", "Hip-Hop", "Kontemporer", "Breakdance", "Kreativitas", "Pelatihan", "Performa", "Showcase", "Bergaya", "Ekspresi", "Teknik", "Etnik", "Klasik", "Kinerja"] },
+                { nama: "UKM Rotary Club", minat: ["Inggris", "Rotary", "Layanan", "Kemanusiaan", "Komunitas", "Pendidikan", "Kolaborasi", "Dukungan", "Kepemimpinan", "Pemuda", "Berbahasa"] },
+            ];
+
+            // Fungsi rekomendasi berdasarkan kategori yang dipilih
+            function getRecommendations() {
+                const selectedMinat = document.getElementById("minatInput").value;
+
+                // Filter UKM berdasarkan kategori yang dipilih
+                const filteredUKM = ukmData.filter(ukm => ukm.minat.includes(selectedMinat));
+
+                // Menampilkan hasil rekomendasi
+                const rekomendasiList = document.getElementById("rekomendasi");
+                rekomendasiList.innerHTML = "";
+
+                if (filteredUKM.length > 0) {
+                    filteredUKM.forEach(ukm => {
+                        const listItem = document.createElement("p");
+                        listItem.textContent = ukm.nama;
+                        rekomendasiList.appendChild(listItem);
+                    });
+                } else {
+                    const noResultItem = document.createElement("p");
+                    noResultItem.textContent = "Tidak ada UKM yang cocok dengan kategori Anda.";
+                    rekomendasiList.appendChild(noResultItem);
+                }
+            }
+        </script>
+    </body>
+</html>
